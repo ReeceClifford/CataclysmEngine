@@ -89,7 +89,12 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(PROJECTDIR)\SDL\include;$(PROJECTDIR)\SDL\image_include;$(PROJECTDIR)\SDL\mixer_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(PROJECTDIR)\SDL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -134,12 +139,6 @@
     <ClCompile Include="Texture2D.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Library Include="SDL\SDL2.lib" />
-    <Library Include="SDL\SDL2main.lib" />
-    <Library Include="SDL\SDL2_image.lib" />
-    <Library Include="SDL\SDL2_mixer.lib" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Character.h" />
     <ClInclude Include="CharacterKoopa.h" />
     <ClInclude Include="CharacterLuigi.h" />
@@ -153,6 +152,12 @@
     <ClInclude Include="LevelMap.h" />
     <ClInclude Include="PowBlock.h" />
     <ClInclude Include="Texture2D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDL\SDL2.lib" />
+    <Library Include="SDL\SDL2main.lib" />
+    <Library Include="SDL\SDL2_image.lib" />
+    <Library Include="SDL\SDL2_mixer.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

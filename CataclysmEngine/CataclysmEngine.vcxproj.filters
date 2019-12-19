@@ -53,12 +53,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="SDL\SDL2.lib" />
-    <Library Include="SDL\SDL2_image.lib" />
-    <Library Include="SDL\SDL2_mixer.lib" />
-    <Library Include="SDL\SDL2main.lib" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Constants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -98,5 +92,11 @@
     <ClInclude Include="CharacterKoopa.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDL\SDL2.lib" />
+    <Library Include="SDL\SDL2_image.lib" />
+    <Library Include="SDL\SDL2_mixer.lib" />
+    <Library Include="SDL\SDL2main.lib" />
   </ItemGroup>
 </Project>
