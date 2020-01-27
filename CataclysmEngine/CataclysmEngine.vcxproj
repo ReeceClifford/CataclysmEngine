@@ -76,10 +76,10 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(PROJECTDIR)\SDL\include;$(PROJECTDIR)\SDL\image_include;$(PROJECTDIR)\SDL\mixer_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects_and_Work\University_Work\Repositories\Game_Engine_Creation\CataclysmEngine\CataclysmEngine\SDL\mixer_include;D:\Projects_and_Work\University_Work\Repositories\Game_Engine_Creation\CataclysmEngine\CataclysmEngine\SDL\include;D:\Projects_and_Work\University_Work\Repositories\Game_Engine_Creation\CataclysmEngine\CataclysmEngine\SDL\image_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(PROJECTDIR)\SDL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\Projects_and_Work\University_Work\Repositories\Game_Engine_Creation\CataclysmEngine\CataclysmEngine\SDL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
@@ -89,10 +89,10 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(PROJECTDIR)\SDL\include;$(PROJECTDIR)\SDL\image_include;$(PROJECTDIR)\SDL\mixer_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects_and_Work\University_Work\Repositories\Game_Engine_Creation\CataclysmEngine\CataclysmEngine\SDL\image_include;D:\Projects_and_Work\University_Work\Repositories\Game_Engine_Creation\CataclysmEngine\CataclysmEngine\SDL\include;D:\Projects_and_Work\University_Work\Repositories\Game_Engine_Creation\CataclysmEngine\CataclysmEngine\SDL\mixer_include;$(PROJECTDIR)\SDL\include;$(PROJECTDIR)\SDL\image_include;$(PROJECTDIR)\SDL\mixer_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(PROJECTDIR)\SDL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\Projects_and_Work\University_Work\Repositories\Game_Engine_Creation\CataclysmEngine\CataclysmEngine\SDL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
